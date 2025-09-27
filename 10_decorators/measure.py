@@ -14,12 +14,3 @@ def f2(sleep_time = 0.1):
 
 if __name__ == "__main__":
     print("HELLO")
-
-# Practice
-# Create a file: string_utils.py
-# Contains a function make_palindrome(text) that takes a string and returns a palindrome by appending its reverse (eg, "abc" -> "abccba")
-
-
-# Create file: main.py
-# 1. Import string_utils
-# 2. Import only make_palindrome

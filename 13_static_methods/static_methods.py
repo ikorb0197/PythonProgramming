@@ -10,6 +10,7 @@ class PathUtils:
     def get_directory(path):
         return path[:path.rfind("/")] if "/" in path else ""
     # static get_basename - extracts the file or directory name
+    @staticmethod
     def get_basename(file):
         return file[file.rfind("/") + 1 : file.rfind(".")] if "/" and "." in file else ""
 

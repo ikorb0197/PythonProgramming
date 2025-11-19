@@ -1,0 +1,41 @@
+git init - initializes a new git repository
+
+git status - shows status of changes
+
+git log - shows commit history
+
+git log --online - shows history in compact form
+
+git diff <file> - shows unstaged changes
+
+git restore <file> - discards changes for a file
+
+git branch - lists all local branches (current branch marked with *)
+
+git branch <name> - creates a new branch
+
+git checkout <branch> - switches to the specified branch
+
+git checkout -b <name> - creates and switches to a new branch
+
+git branch -d <name> - deletes a branch (safe if merged)
+
+git merge <branch> - merges a branch to the current branch
+
+git remote add origin <URL of the remote repository> - creates a new remote reference in your local repo
+
+git remote -v - show connected remote repositories
+
+git push -u origin main
+    push - sends your local commits from your current branch to the remote repository
+    -u - sets up a "tracking" relationship between your local branch and the remote branch
+    origin - the default name Git gives to the remote repository you cloned from
+    main - branch name
+
+git clone <URL of the remote repository> - copies an entire remote repository to your local machine
+
+git pull origin main - updates your current branch with the latest changes from the remote
+
+git pull - combines two steps:
+    git fetch - downloads new commits from the remote
+    git merge - integrates those commits into your current branch
